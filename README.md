@@ -20,8 +20,8 @@ Attribute Type (usually just keep this as "AttributeDefinition")
 # Actually Executing your changes
 writeall() is used to write and execute all changes, add this after all your addattr().
 
-#Notes
+# Notes
 As of now I have not implemented a way to delete attributes.
 
-#Contact
+# Contact
 Contact me to report bugs 'n things at alexei#2564 on discord
