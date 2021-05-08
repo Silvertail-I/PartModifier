@@ -3,7 +3,7 @@ A Part Modifier for Borderlands 2.
 
 to import, include "from Mods.PartModifier import parts" in your files
 
-# Functions
+# Adding Attributes
 addattr()
 takes the following 5 inputs in order:
 
@@ -17,4 +17,8 @@ Attribute Modifier Type (0=Scale, 1=PreAdd, 2=PostAdd)
 
 Attribute Type (usually just keep this as "AttributeDefinition")
 
+# Actually Executing your changes
 writeall() is used to write and execute all changes, add this after all your addattr().
+
+#Notes
+As of now I have not implemented a way to delete attributes.
